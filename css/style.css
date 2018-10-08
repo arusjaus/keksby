@@ -321,3 +321,136 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+
+/*
+    popular-and-price
+*/
+
+.popular-and-price {
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    padding-bottom: 91px;
+    background-color: #f2f2f2;
+}
+
+.popular-and-price .container {
+    position: relative;
+}
+
+.to-catalog {
+    position: absolute;
+    right: -1px;
+    top: 0;
+}
+
+.all-catalog {
+    margin-bottom: 49px;
+}
+
+.catalog-item {
+    margin: 0;
+    margin-right: 48px;
+    padding: 221px 21px 15px 24px;
+    width: 261px;
+    height: 93px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    border: 1px solid #d8d8d8;
+}
+
+.catalog-item:last-child {
+    margin-right: 0;
+    margin-left: -1px;
+}
+
+.glasses {
+    width: 306px;
+    height: 205px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.catalog-title {
+    margin: 0;
+    max-width: 205px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+
+.catalog-price {
+    margin: 0;
+    max-width: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+}
+
+.catalog-item .btn {
+    margin: 20px 0 0 0;
+    width: 103px;
+    color: #ffffff;
+    background-color: #a38b71;
+}
+
+.catalog-item .btn:hover {
+    background-color: #8d745a;
+}
+
+.catalog-item .btn:active {
+    color: #b3a496;
+    background-color: #8d745a;
+}
+
+.catalog-item .btn-info {
+    float: left;
+    clear: left;
+}
+
+.catalog-item .btn-buy {
+    float: right;
+}
+
+.price-list {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 30px;
+}
+
+.price-list th {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+}
+
+.price-list .th-number {
+    text-align: center;
+}
+
+.price-list td,
+.price-list th {
+    padding: 10px 17px;
+}
+
+.price-list td {
+    border: 1px solid #d8d8d8;
+    font-size: 18px;
+}
+
+.price-list .price-number {
+    width: 18px;
+    text-align: center;
+}
+
+.price-list .price-name {    
+    font-weight: bold;
+    width: 422px;
+}
+
+.price-list .price-master {    
+    width: 306px;
+}
