@@ -151,7 +151,47 @@
         </div>
     </div>
 
-    <div class="feedback"></div>
+    <div class="feedback">
+        <div class="container">
+            <h2 class="section-title">Остались вопросы?</h2>
+            <p class="feedback-text">Свяжитесь с нами, и мы развеем оставшиеся у вас сомнения!</p>
+            <form class="feedback-form" action="URL"  method="POST">
+                <div class="feedback-form-item">
+                    <label for="fullname">Представьтесь, пожалуйста:</label>
+                    <input type="text" class="fullname" id="fullname">
+                </div>
+                <div class="clearfix">                    
+                    <div class="feedback-form-item feedback-form-item-left-part">
+                        <label for="tel">Контактный телефон:</label>
+                        <input type="text" class="tel" id="tel">
+                    </div>
+                    <div class="feedback-form-item feedback-form-item-right-part">
+                        <label for="email">Электронная почта:</label>
+                        <input type="text" class="email" id="email">
+                    </div>
+                </div>
+                <div class="checkbox-area">
+                    <label>
+                        <input type="checkbox" name="subscription">
+                        Я согласен получать спам и смс на телефон
+                    </label>
+                </div>
+                <div class="feedback-form-item">
+                    <label for="topic">Тема обращения:</label>
+                    <select name="topic" id="topic">
+                        <option value="1">Условия доставки</option>
+                        <option value="2">Возврат товара</option>
+                        <option value="3">Жалоба в Роспотребнадзор</option>
+                    </select>
+                </div>
+                <div class="feedback-form-item">
+                    <label for="message">Текст обращения:</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <input type="submit" class="btn" value="Отправить">
+            </form>
+        </div>
+    </div>
 
     <div class="page-footer"></div>
 </body>
