@@ -31,13 +31,15 @@ body {
     background-color: #363636;
 }
 
-.header-logo {
+.header-logo,
+.footer-logo {
     float: left; 
     width: 205px;
     height: 55px;
 }
 
-.header-logo img {
+.header-logo img,
+.footer-logo img {
     width: 205px;
     height: 55px;
 }
@@ -569,4 +571,145 @@ body {
 
 .feedback-form .btn:active {
     color: rgba(255, 255, 255, 0.3);
+}
+
+/*
+  footer
+*/
+
+.footer {
+    color: #ffffff;
+    background-color: #363636;
+}
+
+.footer-top {    
+    padding: 45px 0 45px 1px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.footer-midle {
+    padding-top: 25px;
+    padding-left: 1px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.footer-menu {
+    width: 150px;
+    margin-right: 20px;
+    float: left;
+}
+
+.footer-menu h3 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #978269;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    margin-bottom: 15px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #acacac;
+}
+
+.footer-menu a:hover {
+    color: #ffffff;
+}
+
+.footer-menu a:active {
+    color: #848484;
+}
+
+.footer-bottom {
+    padding-top: 58px;
+    padding-left: 1px;
+    padding-bottom: 57px;
+}
+
+.footer-social {    
+    float: left;
+    width: 550px;
+    font-size: 0;
+}
+
+.footer-social-text {
+    margin-right: 47px;
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #978269;
+}
+
+.social-btn {
+    display: inline-block; 
+    width: 45px;
+    height: 45px;
+    margin-right: 28px;
+    vertical-align: middle;
+    color: #ffffff;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    border: 1px solid #4a4a4a;
+}
+
+.social-btn:hover {
+    border-color: #717171;
+}
+
+.social-btn:active {
+    border-color: #ffffff;
+    opacity: 0.1;
+}
+
+.social-btn-vk {
+    background-position: 5px -234px;
+}
+
+.social-btn-fb {
+    background-position: 5px -278px;
+}
+
+.social-btn-in {
+    background-position: -3px -323px;
+}
+
+.footer-copyright {
+    margin-top: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    float: right;
+}
+.footer-copyright .heart {
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+    font-size: 0;
+    vertical-align: middle;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -10px -376px;
+}
+
+.footer-copyright a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    text-decoration: underline;
+    text-decoration-color: #a38b71;
+}
+
+.footer-copyright a:active {
+    color: #848484;
 }
