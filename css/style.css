@@ -105,19 +105,22 @@ body {
     color: #e0dad5;
 }
 
-.btn-header {
+.btn-header,
+.footer-btn {
     float: right;
     color: #ffffff;
     border-color: #ffffff;
     margin-top: 6px;
 }
 
-.btn-header:hover {
+.btn-header:hover,
+.footer-btn:hover {
     color: #404040;
     background-color: #ffffff;
 }
 
-.btn-header:active {
+.btn-header:active,
+.footer-btn:active {
     color: #d0d0d0;
 }
 
